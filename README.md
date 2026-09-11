@@ -20,12 +20,14 @@ sweep is complete, it will reset to scan again.
 
 ## Challenges / What I learned
 **Securely mounting the Ultrasonic Sensor to the Micro servo Motor**
+
   I currently do not own or have access to a 3D printer, so I felt as though I could not properly mount them together.
 Using what little tools I had, I was able to mount the sensor to the servo using cardboard, paper, screws, and tape to
 create a decent solution. Currently however, I have to hold the servo in place manually with my fingers for it to operate.
 Another thing to note is it also has a small amount of wiggle room, which could lead to less accurate results.
 
 **Accounting for Physical Restraints**
+
   Previously, I was working only with the software so I did not account for the physical constraints. In one of the 1st
 drafts of my program, I went straight from moving the servo to the current degree to measuring the distance between the
 object and the sensor, without accounting for the time it takes for servo to move to the current degree in the physical
@@ -33,6 +35,7 @@ world. After some inconsistent results, I identified the problem to be with the 
 of the delay, I received more consistent results.
 
 **Choppy Servo Movement**
+
   During my first iterations of the program, I realized the servo motor was very choppily sweeping the area. After going
   through my code multiple times, I was able to identify the problem with my if statement block.
 
