@@ -5,7 +5,7 @@ Arduino-based ultrasonic radar scanner that sweeps a servo to find the most open
 - Scans its surroundings and identifies clearest open direction
 - Continuously scans to account for a changing environment
 
-![Scan demo](IMG_1713.gif)
+![Scan demo](giphy.gif)
 
 ## Hardware Used
 - Arduino Uno
