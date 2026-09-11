@@ -18,6 +18,8 @@ distance reading to see which is the largest. After a full 180 degree sweep, the
 facing when it had the clearest path (largest distance), while also reporting the distance over Serial. Once a full 180 degree
 sweep is complete, it will reset to scan again.
 
+
+
 ## Challenges / What I learned
 **Securely mounting the Ultrasonic Sensor to the Micro servo Motor**
 
@@ -25,6 +27,8 @@ sweep is complete, it will reset to scan again.
 Using what little tools I had, I was able to mount the sensor to the servo using cardboard, paper, screws, and tape to
 create a decent solution. Currently however, I have to hold the servo in place manually with my fingers for it to operate.
 Another thing to note is it also has a small amount of wiggle room, which could lead to less accurate results.
+
+![Picture of cardboard + paper and screw mounting a ultrasonic sensor onto a servo](IMG_1712.jpg)
 
 **Accounting for Physical Restraints**
 
